@@ -17,7 +17,8 @@
 
 
 
-import { loadEnv, defineConfig } from '@medusajs/framework/utils'
+// import { loadEnv, defineConfig } from '@medusajs/framework/utils'
+import { loadEnv, defineConfig } from '@medusajs/utils'
 
 loadEnv(process.env.NODE_ENV || 'development', process.cwd())
 
